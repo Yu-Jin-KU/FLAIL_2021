@@ -2,7 +2,8 @@
 ChIRP-seq:
 The raw reads of ChIRP-seq were quality controlled, adapter trimmed, mapped to the TAIR10 genome, and filtered using the script ChIRP-seq.sh; 
 Peaks of FLAIL occupancy were called using the script ChIRP_seq.R;
-Motifs among the identified FLAIL binding peaks were identified by Homer tools using the script motif.sh.
+Motifs among the identified FLAIL binding peaks were identified by Homer tools using the script motif.sh;
+Pie chart in Appendix Fig S5B and distance to TSS in Fig S5C were ploted using the script FigS5B&C_Piechart_plotdistancetoTSS.R
 
 Stranded-RNA-seq:
 The raw reads of RNA-seq data were quality controlled, adapter trimmed, then aligned to TAIR10 genome, and filtered using the script flail3_RNA_seq.sh;
